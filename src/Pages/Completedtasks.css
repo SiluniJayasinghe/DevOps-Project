@@ -1,4 +1,4 @@
-.J1
+.J103
 {
     border: 3px solid ;
     position:relative;
@@ -9,7 +9,7 @@
     margin-bottom: 5px;
 }
 
-.J2
+.J203
 {
    background-color: rgb(98, 68, 216); 
    height:50px;
@@ -17,7 +17,7 @@
    
 }
 
-.J3
+.J303
 {
    background-color:rgb(212, 190, 227); 
    height:520px;
@@ -69,7 +69,7 @@
     
 }
 
-.J4
+.J403
 {
    /* background-color: rgb(42, 165, 69);
    position:absolute;
@@ -131,7 +131,7 @@
    cursor:pointer;
 }
 
-.J5
+.J503
 {
    
    margin-top:0px;
@@ -139,7 +139,7 @@
     
 }
 
-.J6
+.J603
 {
    
    margin-top:0px;
@@ -150,7 +150,7 @@
     
 }
 
-.J7
+.J703
 {
    
    margin-top:0px;
@@ -237,32 +237,32 @@
 
 } */
 
-.w:hover .q
+.w03:hover .q03
 {
    visibility: visible;
    
 }
 
-.q
+.q03
 {
    visibility:hidden;
    /* transition: opacity 0.3s ease-in-out; */
    
 }
 
-.w:hover .q01
+.w03:hover .q0103
 {
    visibility: visible;
    
 }
 
-.q01
+.q0103
 {
    visibility:hidden;
    
 }
 
-.w
+.w03
 {
    /* border-width: 1px;
    border-style: solid;
@@ -273,40 +273,53 @@
    margin:5px 10px 5px 10px;
 }
 
-.D202
+.D20203
 {
    position:absolute;
    top:-3px;
    left:63px;
 }
 
-.w:hover .D202
+.D10103
+{
+   position:absolute;
+   top:3px;
+   left:14px;
+}
+
+.w03:hover .D20203
 {
    top:-1.1px;
    left:59.9px;
 }
 
-.D302
+.w03:hover .D10103
+{
+   top:5px;
+   left:10px;
+}
+
+.D30203
 {
    position:absolute;
    top:-3px;
    left:123px;
 }
 
-.w:hover .D302
+.w03:hover .D30203
 {
    top:-1.1px;
    left:120px;
 }
 
-.D402
+.D40203
 {
    position:absolute;
    top:-3px;
    left:183px;
 }
 
-.w:hover .D402
+.w03:hover .D40203
 {
    top:-0.1px;
    left:180px;
@@ -339,7 +352,7 @@
    box-shadow: 1.8px 1.8px 0px rgb(131, 132, 158);
 }
 
-.J8
+.J803
 {
    /* background-color: rgb(42, 165, 69);
    position:absolute;
@@ -361,7 +374,7 @@
    /* padding:25px 25px 25px 25px; */
 }
 
-.J9
+.J903
 {
    
    margin-top:0px;
@@ -469,7 +482,7 @@
    flex-direction: column;
 }
 
-.Maincontent
+.Maincontent03
 {
    position: absolute;
    top:52px;
@@ -482,7 +495,7 @@
    
 }
 
-.availablespace
+.availablespace03
 {
   position:absolute;
    top:50px;
@@ -491,283 +504,7 @@
    width:1012px; 
 }
 
-/* Modal Styles */
-.modalOverlay
-{
-   position: fixed;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   background-color: rgba(0, 0, 0, 0.5);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   z-index: 1000;
-}
-
-.modal
-{
-   background-color: white;
-   border-radius: 10px;
-   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-   width: 90%;
-   max-width: 500px;
-   padding: 0;
-   animation: slideIn 0.3s ease-out;
-}
-
-@keyframes slideIn
-{
-   from {
-      transform: translateY(-50px);
-      opacity: 0;
-   }
-   to {
-      transform: translateY(0);
-      opacity: 1;
-   }
-}
-
-.modalHeader
-{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 20px;
-   border-bottom: 1px solid #e0e0e0;
-   background-color: rgb(98, 68, 216);
-   color: white;
-   border-radius: 10px 10px 0 0;
-}
-
-.modalHeader h3
-{
-   margin: 0;
-   font-family: "poppins", sans-serif;
-}
-
-.closeBtn
-{
-   background: none;
-   border: none;
-   font-size: 24px;
-   color: white;
-   cursor: pointer;
-   padding: 0;
-}
-
-.closeBtn:hover
-{
-   opacity: 0.8;
-}
-
-.modalBody
-{
-   padding: 20px;
-   display: flex;
-   flex-direction: column;
-   gap: 15px;
-}
-
-.taskInput,
-.taskTextarea
-{
-   padding: 12px;
-   border: 1px solid #ddd;
-   border-radius: 6px;
-   font-family: "poppins", sans-serif;
-   font-size: 14px;
-}
-
-.taskInput:focus,
-.taskTextarea:focus
-{
-   outline: none;
-   border-color: rgb(98, 68, 216);
-   box-shadow: 0 0 0 3px rgba(98, 68, 216, 0.1);
-}
-
-.taskTextarea
-{
-   resize: vertical;
-   min-height: 100px;
-}
-
-.modalFooter
-{
-   display: flex;
-   gap: 10px;
-   padding: 20px;
-   justify-content: flex-end;
-   border-top: 1px solid #e0e0e0;
-}
-
-.btnCancel,
-.btnSubmit
-{
-   padding: 10px 20px;
-   border: none;
-   border-radius: 6px;
-   font-family: "poppins", sans-serif;
-   font-size: 14px;
-   cursor: pointer;
-   transition: all 0.3s ease;
-}
-
-.btnCancel
-{
-   background-color: #f0f0f0;
-   color: #333;
-}
-
-.btnCancel:hover
-{
-   background-color: #e0e0e0;
-}
-
-.btnSubmit
-{
-   background-color: rgb(98, 68, 216);
-   color: white;
-}
-
-.btnSubmit:hover
-{
-   background-color: rgb(78, 48, 196);
-}
-
-/* Task List Styles */
-.tasksList
-{
-   padding: 20px;
-   display: flex;
-   flex-direction: column;
-   gap: 15px;
-}
-
-.noTasksMessage
-{
-   text-align: center;
-   color: #383838;
-   font-family: "poppins", sans-serif;
-   padding: 40px 20px;
-}
-
-.taskItem
-{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 15px;
-   background-color: #f9f9f9;
-   border-left: 4px solid rgb(98, 68, 216);
-   border-radius: 6px;
-   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-   transition: all 0.3s ease;
-}
-
-.taskItem:hover
-{
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   background-color: #fff5f5;
-}
-
-.taskItem.completed
-{
-   opacity: 0.6;
-}
-
-.taskItem.completed .taskItemTitle
-{
-   text-decoration: line-through;
-   color: #999;
-}
-
-.taskContent
-{
-   flex: 1;
-   min-width: 0;
-}
-
-.taskItemTitle
-{
-   margin: 0 0 8px 0;
-   font-family: "poppins", sans-serif;
-   font-size: 16px;
-   font-weight: 600;
-   color: #333;
-}
-
-.taskItemDescription
-{
-   margin: 0;
-   font-family: "poppins", sans-serif;
-   font-size: 14px;
-   color: #666;
-   word-wrap: break-word;
-}
-
-.taskActions
-{
-   display: flex;
-   gap: 10px;
-   margin-left: 15px;
-}
-
-.taskCheckBtn,
-.taskDeleteBtn,
-.taskEditBtn
-{
-   background: none;
-   border: none;
-   width: 32px;
-   height: 32px;
-   border-radius: 4px;
-   cursor: pointer;
-   font-size: 16px;
-   transition: all 0.3s ease;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
-.taskCheckBtn
-{
-   background-color: rgba(98, 68, 216, 0.1);
-   color: rgb(98, 68, 216);
-}
-
-.taskCheckBtn:hover
-{
-   background-color: rgba(98, 68, 216, 0.2);
-}
-
-.taskDeleteBtn
-{
-   background-color: rgba(255, 0, 0, 0.1);
-   color: #ff4444;
-}
-
-.taskDeleteBtn:hover
-{
-   background-color: rgba(255, 0, 0, 0.2);
-}
-
-.taskEditBtn
-{
-   background-color: rgba(255, 165, 0, 0.1);
-   color: #ff9900;
-}
-
-.taskEditBtn:hover
-{
-   background-color: rgba(255, 165, 0, 0.2);
-}
-
-
-
-.buttonContainer
+.buttonContainer03
 {
    display: flex;
    flex-direction: column;
@@ -777,7 +514,7 @@
    justify-content: center;
 }
 
-.taskButton
+.taskButton03
 {
    display: flex;
    flex-direction: column;
@@ -796,33 +533,4 @@
    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
    width: 200px;
    height: 80px;
-}
-
-.taskButton:hover
-{
-   background-color: rgb(78, 48, 196);
-   transform: translateY(-2px);
-   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.taskButton:active
-{
-   transform: translateY(0px);
-   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.taskButton:disabled
-{
-   cursor: not-allowed;
-}
-
-.btnSubmit:disabled
-{
-   opacity: 0.5;
-   cursor: not-allowed;
-}
-
-.buttonIcon
-{
-   font-size: 28px;
 }

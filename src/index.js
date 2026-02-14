@@ -7,6 +7,8 @@ import App from './App';
 import Login from './Pages/Login';
 import Signup from './Pages/Signup';
 import Home from './Pages/Home';
+import Settings from './Pages/Settings';
+import Completed from './Pages/Completedtasks';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +20,8 @@ root.render(
         <Route path="/Login" element={<Login />} />
         <Route path="/SignUp" element={<Signup />} />
         <Route path="/Home" element={<Home />} />
+        <Route path="/Settings" element={<Settings />} />
+        <Route path="/Completedtasks" element={<Completed />} />
 
       </Routes>
     </Router>
